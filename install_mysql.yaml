@@ -6,7 +6,7 @@
     mysql_root_password: 'your_new_password_here'
 
   tasks:
-    - name: Update apt cache
+    - name: Update apt cached
       apt:
         update_cache: yes
 
